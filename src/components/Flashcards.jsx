@@ -1,6 +1,7 @@
 /* Import React' useState port which allows the component
 to keep track of data that changes over time
 (like which card user is on and whether the card is flipped */
+import React from 'react';
 import { useState } from "react";
 
 // React component named "Flashcards", receives array "cards" from json

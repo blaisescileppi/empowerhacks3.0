@@ -1,4 +1,5 @@
 // Pulls in useState to  store + update data inside the component (index, score, selected answer)
+import React from 'react';
 import { useState } from "react";
 
 /* Defines a React component called Quiz + accepts a prop called cards (an array of { q: "question", a: "answer" } objects */
