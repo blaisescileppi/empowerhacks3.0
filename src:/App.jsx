@@ -3,6 +3,7 @@ import lessons from ".data/lessons.json";
 import Flahcards from ".src/Flashcards";
 import Quiz from ".src/Quiz";
 
+
 function App() {
     const [mode, setMode] = useState("menu");
     const [subject, setSubject] = useState(null);

@@ -2,16 +2,25 @@
     "math": [
         {"q": "6 x 7", "a": "42"},
         {"q": "7 X 7", "a": "49"},
-        {"q": "50/5", "a": "10"}
+        {"q": "50 ÷ 5", "a": "10"},
+        { "q": "9 × 8", "a": "72" },
+        { "q": "12 ÷ 3", "a": "4" },
+        { "q": "15 - 7", "a": "8" },
+        { "q": "5 + 9", "a": "14" }      
     ],
 
     "ELA": [
         {"q": "What is the difference between fiction and nonfiction?",
         "a": "Fiction, by definition, encompasses stories that are imagined and not based on factual events, while nonfiction deals with real-world information and verifiable facts"},
-        {"q": "What is a simile?", "a": "A comparison that uses 'like' or 'as'"}
+        {"q": "What is a simile?", "a": "A comparison that uses 'like' or 'as'"},
+        { "q": "Define 'gravity'", "a": "Force that pulls objects toward each other" },
+        { "q": "Synonym for 'quick'", "a": "Fast" }
     ],
 
     "science": [
-        {"q": "What is the process that turn a catepillar into a butterfly?", "a": "Metamorphosis"}
+        {"q": "What is the process that turn a catepillar into a butterfly?", "a": "Metamorphosis"},
+        { "q": "What gas do humans need to breathe?", "a": "Oxygen" },
+        { "q": "What is the order of the planets?", "a": "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune"},
+        { "q": "State of water at 100°C?", "a": "Gas/Steam" }
     ]
 }
