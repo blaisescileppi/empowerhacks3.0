@@ -29,6 +29,6 @@ cd offline-library
 npm install
 3. Run locally:
 npm start
-*App will run at http://localhost:3000*
-4. Build for deployment: 
+(*App will run at http://localhost:3000*)
+5. Build for deployment: 
 npm run build
