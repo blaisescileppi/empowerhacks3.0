@@ -1,0 +1,17 @@
+{
+    "math": [
+        {"q": "6 x 7", "a": "42"},
+        {"q": "7 X 7", "a": "49"},
+        {"q": "50/5", "a": "10"}
+    ],
+
+    "ELA": [
+        {"q": "What is the difference between fiction and nonfiction?",
+        "a": "Fiction, by definition, encompasses stories that are imagined and not based on factual events, while nonfiction deals with real-world information and verifiable facts"},
+        {"q": "What is a simile?", "a": "A comparison that uses 'like' or 'as'"}
+    ],
+
+    "science": [
+        {"q": "What is the process that turn a catepillar into a butterfly?", "a": "Metamorphosis"}
+    ]
+}
