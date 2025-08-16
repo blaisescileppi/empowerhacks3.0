@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from "react";
 import lessons from "./data/lessons.json";
 import Flashcards from "./components/Flashcards.jsx";
