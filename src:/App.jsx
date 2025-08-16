@@ -1,8 +1,7 @@
 import { useState } from "react";
-import lessons from ".data/lessons.json";
-import Flahcards from ".src/Flashcards";
-import Quiz from ".src/Quiz";
-
+import lessons from "./data/lessons.json";
+import Flahcards from "./src/Flashcards.jsx";
+import Quiz from "./src/Quiz.jsx";
 
 function App() {
     const [mode, setMode] = useState("menu");
@@ -48,7 +47,7 @@ function App() {
         return <Quiz cards={lessons[subject]} />;
       }
     
-      return null;
+      return <p>Something went wrong. Please try again.</p>; // fallback UI
     }
     
 export default App;
