@@ -1,7 +1,7 @@
 import { useState } from "react";
 import lessons from "./data/lessons.json";
-import Flashcards from "./src/Flashcards.jsx";
-import Quiz from "./src/Quiz.jsx";
+import Flashcards from "./components/Flashcards.jsx";
+import Quiz from "./components/Quiz.jsx";
 
 // import lessons from "./data/lessons.json";
 // import Flashcards from "./Flashcards.jsx";
