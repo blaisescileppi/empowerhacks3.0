@@ -5,12 +5,10 @@ import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(<App />);
 
+// Register the SW (Vite-safe pathing)
 if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-      navigator.serviceWorker
-        .register('/service-worker.js')
-        .then((reg) => console.log('SW registered:', reg))
-        .catch((err) => console.error('SW registration failed:', err));
-    });
+    const swURL = `${import.meta.env.BASE_URL}service-worker.js`;
+    navigator.serviceWorker.register(swURL)
+      .catch((err) => console.error('SW registration failed:', err));
   }
   
