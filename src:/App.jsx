@@ -1,7 +1,11 @@
 import { useState } from "react";
 import lessons from "./data/lessons.json";
-import Flahcards from "./src/Flashcards.jsx";
+import Flashcards from "./src/Flashcards.jsx";
 import Quiz from "./src/Quiz.jsx";
+
+// import lessons from "./data/lessons.json";
+// import Flashcards from "./Flashcards.jsx";
+// import Quiz from "./Quiz.jsx";
 
 function App() {
     const [mode, setMode] = useState("menu");
